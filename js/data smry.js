@@ -9,3 +9,17 @@
 
 // array , objects, functions
  
+
+//****************MEMORY***************** */
+
+//stack memory(primitive) getting copy of the reference , no original value is changed in update
+
+// heap memory(non-primitive) getting original copy , original value gets changed if changed in update 
+
+let myYoutubename = "ronakdahiyadotcom"
+ 
+let anothername = myYoutubename
+anothername = "robindahiya"
+
+console.log(myYoutubename);
+console.log(anothername);
