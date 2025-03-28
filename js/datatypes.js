@@ -17,5 +17,5 @@ let isloggedin = true
 //symbol =>unique
 //objects
 
-console.log(typeof undefined);//out undefined
-console.log(typeof null); //out object
+console.log(typeof undefined);//output undefined
+console.log(typeof null); //output object
