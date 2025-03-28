@@ -9,8 +9,7 @@
 
 // array , objects, functions
  
-
-//****************MEMORY***************** */
+// mrmory //
 
 //stack memory(primitive) getting copy of the reference , no original value is changed in update
 
