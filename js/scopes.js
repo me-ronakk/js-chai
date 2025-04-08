@@ -1,3 +1,6 @@
+//scope refers the power of execution of variables till their particular area 
+
+
 if (true) {
     const username = "ronak"
     if(username === "ronak"){
