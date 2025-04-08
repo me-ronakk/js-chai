@@ -9,7 +9,7 @@ console.log("ronak dahiya");
 
 })(); // last () to execute the functions directly
 
-//unnamed iife anmd parameter iife
+//unnamed iife and parameter iife
 // using iife in arrow funtion
 ( (name)=>{
     console.log(`ronakdahiya ${name}`);

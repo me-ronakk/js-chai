@@ -1,0 +1,29 @@
+* javascript execution context steps :-
+1) GLOBAL EXECUTION context of our code and allocated in THIS (differ in node and browser)
+2)FUNTION EXECUTION context
+3)EVAL EXECUTION context
+
+TWO PHASES OF EXECUTION OF OUR CODE :
+
+* MEMORY CREATION PHASE / CREATION PHASE (PLACE IS ALLOCATED IN THIS PHASE)
+* EXECUTION PHASE (CODE IS EXECUTED IN THIS PHASE)
+
+
+ALL THE STEPS:
+1) GLOBAL EXECUTION context of our code and allocated in THIS (differ in node and browser)
+
+MEMORY CREATION PHASE :-
+2) all variables are collected in memory and kept with undefined
+3) in funtion we put the defination of function
+
+EXECUTION PHASE :-
+4)values are provied instead of undefined
+5)during execution a new varibale enviornment with new execution phase (new box is created)
+6)again inside the new box created above follows up the 2 steps of memory phase and execution phase.
+once the work of executionis done the new box was created is deleted
+
+
+*more thn one funtion / having two and three funtion in one funtion process:
+1)it uses LIFO (last in first out)method
+2)if one named funtion is having  two named funtion inside and two is having three named funtion inside , last one to be executed
+will be three so first three wll come out and thn two and lastly one funtion
